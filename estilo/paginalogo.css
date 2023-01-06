@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.imagem {
+    width: 200px;
+    height: 175px;
+    background-image: url(../imagens/logo.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
