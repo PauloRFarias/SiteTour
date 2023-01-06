@@ -1,12 +1,32 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    --font-padrao: 'Fredoka One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-family: var(--font-padrao);
+    text-align: center;
+    font-size: 1em;
+    color: rgba(0, 0, 255, 0.678);
+    margin-top: 200px;
+    
+}
+
 .imagem {
-    width: 200px;
-    height: 175px;
-    background-image: url(../imagens/logo.png);
+    width: 270px;
+    height: 134px;
+    background-image: url(../imagens/logocoé270.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     position: absolute;
     top: 50%;
     left: 50%;
