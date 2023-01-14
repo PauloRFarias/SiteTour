@@ -15,9 +15,8 @@ h1 {
     font-family: var(--font-padrao);
     text-align: center;
     font-size: 1em;
-    color: rgba(0, 0, 255, 0.678);
-    margin-top: 180px;
-    
+    color: rgba(0, 0, 0, 0.349);
+    margin-top: 140px;   
 }
 
 .imagem {
