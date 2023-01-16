@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/*font-family: 'Paytone One', sans-serif;
+font-family: 'Yesteryear', cursive;
+font-family: 'Bree Serif', serif;*/
+
+:root{
+    --cor0: #0907EB;
+    --cor1: #0744F5;
+    --cor2: #0475DE;
+    --cor3: #07C1F5;
+    --cor4: #07EBE0;   
+    --fonte-padrao: 'Paytone One', sans-serif;
+    --fonte-cursiva: 'Yesteryear', cursive;
+    --fonte-seria: 'Bree Serif', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+} 
+
+a {
+    color: green;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+.inicio {
+    background-color: rgba(128, 128, 128, 0.521);
+}
+
+.nome {
+    padding: 32px 30px;
+    display: inline-block;
+    font-family: var(--fonte-seria);
+}
+
+.listas {
+    float: right;
+    padding: 50px;
+}
+
+.listas > abbr {
+    margin: 0 20px;
+}
+
+img {
+    width: 20px;
+}
+
+.imagem {
+    margin: auto;
+    background-image: url(../imagens/foto1.jpg);
+    width: 400px;
+    height: 400px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.informar {
+    background-color: rgba(0, 0, 0, 0.13);
+    font-family: var(--fonte-padrao); 
+    width: 400px;
+    height: 400px;
+    float: right;  
+}
+
+.informar > h1 {
+    padding-left: 10px;
+}
+
+.informar > ul > li {
+    margin-left: 40px;
+}
+
+.sobremim {
+    background-color: rgba(128, 128, 128, 0.041);
+    font-family: var(--fonte-seria);
+    text-align: justify;
+    padding: 20px 60px;
+}
+
+.sobremim > h1 {
+    padding: 10px;  
+}
+
+@media (max-width: 815px) {
+    .inicio {
+        display: grid;
+        height: 157px;
+    }
+    
+    .listas {
+        float: left;
+        padding: 0px 30px;
+        margin: 0px;
+    }
+
+    .imagem {
+        width: 100vw;
+        margin-bottom: -4px;
+    }
+
+    .informar {
+        width: 100%;
+        height: 360px;
+        display: inline;
+    }
+
+    .sobremim {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 667px) {
+    .inicio {
+        height: 200px;
+    }
+    
+    .listas {
+        float: left;
+        padding: 0px 30px;
+        margin: 0px;
+    }
+
+    .imagem {
+        width: 100%;
+        margin-bottom: -4px;
+    }
+
+    .informar {
+        width: 100%;
+        height: auto;
+        display: inline;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .sobremim {
+        display: inline-block;
+    } 
+}
