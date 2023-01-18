@@ -21,6 +21,42 @@ header {
 }
 
 img {
-    width: 20px;
+    width: 30px;
+}
+
+div.numero1 {
+    display: inline-flex;
+}
+
+div.email, div.telefone {
+    width: 50vw;
+    height: auto;
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+}
+
+div.email > p, div.telefone > p {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+div.numero2 {
+    display: inline-flex;
+}
+
+div.instagram, div.futuro {
+    width: 50vw;
+    height: auto;
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    text-align: center;
+}
+
+div.instagram > p, div.futuro > p {
+    padding-top: 20px;
+    font-weight: bold;
 }
 
