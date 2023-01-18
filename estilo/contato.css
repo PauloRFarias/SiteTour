@@ -40,6 +40,7 @@ div.email, div.telefone {
 div.email > p, div.telefone > p {
     padding-top: 20px;
     font-weight: bold;
+    font-size: 1em;
 }
 
 div.numero2 {
@@ -58,5 +59,6 @@ div.instagram, div.futuro {
 div.instagram > p, div.futuro > p {
     padding-top: 20px;
     font-weight: bold;
+    font-size: 1em;
 }
 
