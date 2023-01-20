@@ -29,7 +29,7 @@ div.numero1 {
 }
 
 div.email, div.telefone {
-    width: 50vw;
+    width: 48vw;
     height: auto;
     padding-top: 2em;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,30 +43,34 @@ div.email > p, div.telefone > p {
     font-size: 0.80em;
 }
 
-div.numero2 {
-    display: inline-flex;
-}
-
-div.instagram, div.futuro {
-    width: 50vw;
-    height: auto;
-    padding-top: 2em;
+div.instagram {
     font-family: Arial, Helvetica, sans-serif;
-    display: inline;
     text-align: center;
+    display: block;
+    padding-top: 40px;
 }
 
-div.instagram > p, div.futuro > p {
+div.instagram > p {
     padding-top: 20px;
     font-weight: bold;
     font-size: 0.80em;
 }
 
-.teste {
-    width: 70px;
-    height: 70px;
+div.mensagem {
+    font-family: var(--font-padrao);
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+    line-height: 30px;
+}
+
+div.mensagem > form > h1 {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.input123 {
     border: 0;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     outline: 0;
 }
 
