@@ -3,18 +3,66 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-decoration: none
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+:root {
+    --font-padrao: 'Fredoka One', cursive;
+}
+
+h1 {
+    font-size: 12px;
+    font-family: var(--font-padrao);
+    text-align: center;
+    margin: 10px;
 }
 
 .foto1 {
-    width: 100%;
+    width: 85vw;
     height: 50vh;
+    margin: auto;
+    margin-top: 10px;
+    background-color: antiquewhite;
     background-image: url(../imagens/primeirafoto400.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
-    box-shadow: 3px 3px 10px black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
 }
 
-h1, p {
-    margin: 20px;
+.foto2 {
+    width: 85vw;
+    height: 50vh;
+    margin: auto;
+    background-color: antiquewhite;
+    background-image: url(../imagens/1barravelha400.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
+}
+
+div.foto3 {
+    width: 85vw;
+    height: 50vh;
+    margin: auto;
+    background-color: antiquewhite;
+    background-image: url(../imagens/2barravelha400.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
+}
+
+a {
+    font-family: var(--font-padrao);
+    font-weight: bolder;
+    padding: 30px;
+    color: black;
 }
