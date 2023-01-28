@@ -63,6 +63,14 @@ div.foto3 {
 a {
     font-family: var(--font-padrao);
     font-weight: bolder;
-    padding: 30px;
+    background-color: yellow;
+    padding: 5px 20px;
     color: black;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+a:hover {
+    background-color: black;
+    color: yellow;
 }
