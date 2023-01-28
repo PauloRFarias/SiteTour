@@ -1,16 +1,15 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none
-}
-
-
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 :root {
     --font-padrao: 'Fredoka One', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none
 }
 
 h1 {
@@ -60,14 +59,17 @@ div.foto3 {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.582);
 }
 
+p {
+    margin: 30px;
+}
+
 a {
     font-family: var(--font-padrao);
     font-weight: bolder;
     background-color: yellow;
-    padding: 5px 20px;
+    padding: 10px 30px;
     color: black;
     border-radius: 5px;
-    margin: 30px;
 }
 
 a:hover {
