@@ -14,9 +14,10 @@
 }
 
 div.servico > h1 {
+    font-size: 22px;
     background-color: rgba(0, 0, 0, 0.473);
     color: white;
-    padding: 15px 15px 15px 15px;
+    padding: 15px;
 }
 
 div.servico > p {
